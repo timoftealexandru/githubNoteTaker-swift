@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "69F194227A6EE808C6B565660552C1D6"
+               BlueprintIdentifier = "A983AC092FCB1FC7059CA658D42A1C1F"
                BuildableName = "Pods_githubnotetaker_swift.framework"
                BlueprintName = "Pods-githubnotetaker-swift"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "69F194227A6EE808C6B565660552C1D6"
+            BlueprintIdentifier = "A983AC092FCB1FC7059CA658D42A1C1F"
             BuildableName = "Pods_githubnotetaker_swift.framework"
             BlueprintName = "Pods-githubnotetaker-swift"
             ReferencedContainer = "container:Pods.xcodeproj">

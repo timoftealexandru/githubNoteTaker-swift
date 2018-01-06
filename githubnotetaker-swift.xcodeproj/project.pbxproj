@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E39634E200169690095AE88 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E39634D200169690095AE88 /* ViewController2.swift */; };
 		0E5642C52001582B005AC64A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5642C42001582B005AC64A /* AppDelegate.swift */; };
 		0E5642C72001582B005AC64A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5642C62001582B005AC64A /* ViewController.swift */; };
 		0E5642CA2001582B005AC64A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E5642C82001582B005AC64A /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		09D00AA441D56768A1AA024A /* Pods-githubnotetaker-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-githubnotetaker-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-githubnotetaker-swift/Pods-githubnotetaker-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		0E39634D200169690095AE88 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		0E5642C12001582B005AC64A /* githubnotetaker-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "githubnotetaker-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E5642C42001582B005AC64A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E5642C62001582B005AC64A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			children = (
 				0E5642C42001582B005AC64A /* AppDelegate.swift */,
 				0E5642C62001582B005AC64A /* ViewController.swift */,
+				0E39634D200169690095AE88 /* ViewController2.swift */,
 				0E5642C82001582B005AC64A /* Main.storyboard */,
 				0E5642CB2001582B005AC64A /* Assets.xcassets */,
 				0E5642CD2001582B005AC64A /* LaunchScreen.storyboard */,
@@ -172,12 +175,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-githubnotetaker-swift/Pods-githubnotetaker-swift-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +232,7 @@
 			files = (
 				0E5642C72001582B005AC64A /* ViewController.swift in Sources */,
 				0E5642C52001582B005AC64A /* AppDelegate.swift in Sources */,
+				0E39634E200169690095AE88 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +396,7 @@
 				0E5642D52001582B005AC64A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

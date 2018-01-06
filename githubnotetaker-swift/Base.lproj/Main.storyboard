@@ -59,11 +59,64 @@
                         <outlet property="emailText" destination="cfe-S0-Cvh" id="Opl-Lu-Gjj"/>
                         <outlet property="passwordText" destination="dun-8p-LuW" id="HaA-cd-lDV"/>
                         <outlet property="segmentedControl" destination="ZYO-SZ-6Ff" id="okt-Fu-MHW"/>
+                        <segue destination="u7N-Vl-HGt" kind="show" identifier="segue" id="27r-5c-2ho"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="Yvs-6z-CPn">
+            <objects>
+                <viewController id="u7N-Vl-HGt" customClass="ViewController2" customModule="githubnotetaker_swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sIv-5p-bDr"/>
+                        <viewControllerLayoutGuide type="bottom" id="L6S-0y-fGQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Dia-uH-EG3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ohy-G0-bow">
+                                <rect key="frame" x="160" y="617" width="55" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Log Out"/>
+                                <connections>
+                                    <action selector="action:" destination="u7N-Vl-HGt" eventType="touchUpInside" id="wSO-bb-CXq"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5yh-te-Udm">
+                                <rect key="frame" x="0.0" y="0.0" width="383" height="609"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="neu-Bs-ZUc">
+                                        <rect key="frame" x="0.0" y="28" width="383" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="neu-Bs-ZUc" id="yjr-4N-9z9">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" red="0.12309892766893638" green="1" blue="0.69774482564262064" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="u7N-Vl-HGt" id="eTd-ZV-Si7"/>
+                                    <outlet property="delegate" destination="u7N-Vl-HGt" id="mPb-pC-eOG"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableview" destination="5yh-te-Udm" id="KCU-ix-Qsh"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="segue2" id="5GC-do-tsg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FDl-3Y-sEK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1008.8" y="138.98050974512745"/>
         </scene>
     </scenes>
 </document>
